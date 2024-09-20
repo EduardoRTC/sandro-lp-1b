@@ -21,7 +21,7 @@ const quotes = [
 
 export default function Testimonials() {
   return (
-    <section className={styles.quoteSection}>
+    <section id='sobre' className={styles.quoteSection}>
       <h2 className={styles.sectionTitle}>Quem provou da água sabe</h2>
       <div className={styles.quoteGrid}>
         {quotes.map((quote, index) => (

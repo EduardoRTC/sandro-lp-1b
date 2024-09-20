@@ -6,9 +6,9 @@ export default function Header() {
         <div className={styles.logo}>Água'Qui</div>
         <nav>
           <a href="#home">Home</a>
-          <a href="#about">About</a>
+          <a href="#sobre">Sobre</a>
           <a href="#products">Produtos</a>
-          <a href="#contact">Contato</a>
+          <a href="#contato">Contato</a>
         </nav>
       </header>
     );

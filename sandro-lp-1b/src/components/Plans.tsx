@@ -21,7 +21,7 @@ const planos = [
 ];
 export default function WaterPlans() {
   return (
-    <section className={styles.productSection}>
+    <section id='products' className={styles.productSection}>
       <h2 className={styles.sectionTitle}>Soluções acquosas</h2>
       <div className={styles.productGrid}>
         {planos.map((planos, index) => (

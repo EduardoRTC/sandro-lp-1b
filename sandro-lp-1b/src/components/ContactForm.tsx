@@ -15,7 +15,7 @@ export default function ContactForm() {
   };
 
   return (
-    <section className={styles.contactSection}>
+    <section id='contato' className={styles.contactSection}>
       <div className={styles.container}>
         <h2 className={styles.sectionTitle}>Se hidrate conosco</h2>
         <form onSubmit={handleSubmit} className={styles.contactForm}>
