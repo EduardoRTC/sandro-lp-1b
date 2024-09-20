@@ -4,9 +4,9 @@ import styles from '../LandingPage.module.css';
 import { useEffect, useState } from 'react';
 
 const cards = [
-  { title: "Pure Spring", description: "Sourced from natural springs, our water is crisp and refreshing." },
-  { title: "Mineral Rich", description: "Packed with essential minerals for your health and wellbeing." },
-  { title: "Eco Friendly", description: "Our packaging is 100% recyclable, supporting a greener planet." },
+  { title: "Água Pura", description: "Extraída de fontes naturais, nossa água é cristalina e refrescante." },
+  { title: "Rica em Minerais", description: "Repleta de minerais essenciais para sua saúde e bem-estar." },
+  { title: "Ecológica", description: "Nossa embalagem é 100% reciclável, apoiando um planeta mais verde." },
 ];
 
 export default function CardCarousel() {
